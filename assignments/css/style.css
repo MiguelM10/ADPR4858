@@ -27,7 +27,17 @@ body {
    .circular--square { border-radius: 50%;
 border: 5px solid #9abcf8
 } 
+a:link {
+    color: #9abcf8;
+    text-decoration: none;
 
+}
+
+a:hover {
+    color: #1f5dc9;
+    text-decoration: underline;
+
+}
 /*******Layout********/
 
 .container {
