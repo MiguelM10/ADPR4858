@@ -24,7 +24,7 @@ body {
     h3 {
         font-size: 1.25rem;
     }
-    img {
+    .img {
         max-width: 100%;
     }
    .circular--square { border-radius: 50%;
