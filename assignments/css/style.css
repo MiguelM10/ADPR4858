@@ -51,15 +51,12 @@ a:hover {
     margin: 0 auto;
     width: min(95%, 75rem);
 }
-.container * 
-{
+.container > * {
+    
     grid-column: span 12;
 }
 
-
-}
- /*******-Navigation_Using_Flexbox-********/ 
-}
+/*******-Navigation_Using_Flexbox-********/ 
  nav {
      background-color: #7A9A95;
      padding: 0 1rem;
@@ -67,8 +64,8 @@ a:hover {
      justify-content: center;
      position: sticky;
      top: 0;
-
  }
+
  nav ul {
      margin: 0;
      padding: 0;
