@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <title>3D</title>
+<link rel="stylesheet" href="Project2.css"
+
+</head>
+
+<body>
+<div class="container">
+<header>
+    <p><img  src="images/3D Energy Assets/3D_Alphaland_1920x1080_d22e893d-9e9e-4b28-b3c3-0095caa83fab_1800x.jpg" alt="logo"></p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">About</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+<section class="col-span-8">
+    <h2>Miguel Mendez</h2> 
+    <h3>About Me</h2> <p>Currently studying Advertising and Public Relations at the University of Nebraska Lincoln.</p> 
+    <h3>Classes This Semester</h2> <p>Enrolled in ADPR 458</p>
+    <h3>Outside of Class</h2> <p>Running, Video Games, Outdoors, Music, Creating </p>
+    <h3>After Graduation</h2> <p>Land a job in UI design, Event Planning, or Graphic design
+    </p>
+</section>
+
+ <aside class="col-span-4">
+     
+<a href="https://www.linkedin.com" target="_blank" class="button">Connect on LinkedIn</a>
+</aside>
+
+ <footer>
+     <p>&copy; 2022 Miguel Mendez</p>
+ </footer>
+
+</div> <!-------container closes-->
+</body>
+    </html>
