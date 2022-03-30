@@ -11,7 +11,7 @@
      
  
      header{
-         background-color: #9abcf8;
+         background-color: #000000;
          color: white;
          padding: 2rem;
      }
@@ -93,10 +93,29 @@
   
  
  /*******Components********/
+
+ .list{
+    background-color: yellow;
+    columns: 3;
+    
+ }
+
+ .drinks{
+    background-color: yellow;
+    columns: 3;
+   
+width: 50%;
+
+
+display: block;
+top: 10%;
+left: 50%;
+    
+ }
  
  .button:link, .button:visited {
      color: white;
-     background-color: #9abcf8;
+     background-color: #6c6e72;
      text-align: center;
      text-decoration: none;
      padding: 1rem 1.75rem;
@@ -110,20 +129,26 @@
      background-color: #1f5dc9;
  }
  
- .card {
+ .stats-section {
      text-align: center;
      margin: 1rem;
      padding-bottom: 2rem;
      box-shadow: 0 .125rem .5rem rgba(0, 0, 0, .15);
+    
  }
  .card-title {
      margin: 0.75rem 0 0 0;
      padding: 0 2rem 0.5rem;
+     
  }
  .card-text {
      margin: 0.5rem 0 1rem 0;
      padding: 0 2rem 0.5rem;
+
  }
+ 
+   
+ 
  
  /*******Desktop Layout*****/
  @media screen and (min-width: 40rem){
@@ -142,3 +167,35 @@
          flex-basis: 27.5%;
      }
  }
+
+ .box-sizing{
+
+border-radius: 3rem;
+backdrop-filter: saturate(180%) blur(2rem);
+background-color: #ffffff80;
+box-shadow: 0 0 3rem;
+display: relative;
+gap: 2rem;
+padding: 2rem 2rem 4rem;
+max-width: 400px;
+align-self: center;
+justify-self: center;
+transition: all .5s ease;
+position: absolute;
+top: calc(100% - 200px);
+left: 50%;
+transform: translate(-50%);
+z-index: 1;
+width: 90%;
+margin: 0;
+
+
+}
+
+.energy {
+   
+   grid-auto-flow: 3;
+   columns: 2;
+   grid-auto-rows: max-content;
+   object-fit: fill;
+}
