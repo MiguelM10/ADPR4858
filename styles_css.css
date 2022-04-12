@@ -131,6 +131,17 @@ a:hover{
     display: block;
 }
 
+ /*######NameSection#################################*/
 
-
-
+.NameSection{
+    position: fixed;
+    top: 44rem;
+    left: 25rem;
+}
+.Quote{
+    position: fixed;
+    top: 50rem;
+    left: 31rem;
+    color: aqua;
+   
+}
