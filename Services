@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Final Project 2022</title>
+    <link rel="stylesheet" href="styles_css.css">
+</head>
+<style>
+    body,header{
+        background-image: url("images/Background_image.png");
+        background-size: fill;
+    }
+</style>
