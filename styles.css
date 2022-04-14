@@ -14,6 +14,7 @@ header{
     background-color:navajowhite;
     border-top: .5px solid #ffffff;
     border-bottom: .5px solid #ffffff;
+    border-left: .5px solid #ffffff;
 }
 
 h1 {
@@ -41,8 +42,11 @@ ul{
 li{
     display: inline-block;
     padding: 15px 30px;
+}
+.topmenu {
+    display: inline-block;
+    padding: 15px 30px;
     border-left: .5px solid #ffffff;
-
 }
 
 a{
