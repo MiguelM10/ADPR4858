@@ -1,4 +1,9 @@
 
+
+
+
+
+
 /*##############Top_MENU###############*/
 
 header{
@@ -11,7 +16,7 @@ header{
 }
 
 h1 {
-  position: absolute;
+  
   padding: 3px;
   float: left;
   margin-left: 10%;

@@ -1,78 +1,61 @@
 *{ 
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
-
-/*################TOP MENU##########*/
-
-
-
-header{
-    width: 100%;
-    height: 70px;
-    background-color:navajowhite;
-    border-top: .5px solid #ffffff;
-    border-bottom: .5px solid #ffffff;
-    border-left: .5px solid #ffffff;
+img {
+    max-width: 100%;
 }
+/*##################Layout################*/
 
-h1 {
-    position: absolute;
-    padding: 3px;
-    float: left;
-    margin-left: 10%;
-    margin-top: 10px;
-    font-family: sans-serif;
-    color: #0c7db1;
-}
-
-span{
-    color: #ffffff;
-}
-
-ul{
-    width: auto;
-    float: right;
-    margin-top: 8px;
-    
+.container {
+    background-color: transparent;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(12, 1fr);
+    margin: 0;
+    width: min(95%, 75rem);
     
 }
 
-li{
-    display: inline-block;
-    padding: 15px 30px;
-}
-.topmenu {
-    display: inline-block;
-    padding: 15px 30px;
-    border-left: .5px solid #ffffff;
-}
-
-a{
-    text-align: center;
-    color: #ffffff;
-    text-decoration: none;
-    font-family: sans-serif;
-    font-size: 1.2vw;
+nav ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
-a:hover{
-    color: aquamarine;
-    transition: 0.5s;
+nav li {
+    flex-grow: 1;
+
 }
+
+
 
 /*##############SIDE-MENU###############*/
 
+.wrapper{
+    max-width: 250px;
+}
+
+
 .wrapper .sidebar{
+    display: inline-block;
     background: rgb(2, 2, 28);
-    position: fixed;
     top: 0;
     left: 0;
     width: 225px;
     height: 100%;
     padding: 20px 0;
     transition: all 0.5s ease;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+   
 }
 
 .wrapper .sidebar .profile{
@@ -81,7 +64,7 @@ a:hover{
 }
 
 .wrapper .sidebar .profile img{
-    display: block;
+    
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -104,13 +87,14 @@ a:hover{
     border-bottom: 1px solid #10558d;
     color: rgb(241,237,237);
     font-size: 16px;
-    position: relative;
 }
 
 .wrapper .sidebar ul li a .icon{
     color: #dee4ec;
     width: 30px;
-    display: inline-block;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 .wrapper .sidebar ul li a:hover,
@@ -128,28 +112,109 @@ a:hover{
 
 .wrapper .sidebar ul li a:hover:before,
 .wrapper .sidebar ul li a.active:before{
-    display: block;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
  /*######NameSection#################################*/
 
-
+.nameposition{
+    transform: translate(15rem, -40rem);
+    height: fit-content;
+    margin-left: 5rem;
+    margin-top: 28rem;
+    
+  
+}
 
 h2{
-    padding: 3px;
-    float: left;
-    margin-left: 30rem;
-    margin-top: 35rem;
     font-family: sans-serif;
     color: antiquewhite;
+   
 }
 
 .Quote{
-    padding: none;
-    float: left;
-    margin-left: -13rem;
-    margin-top: 38.5rem;
+    
     font-family: sans-serif;
     color: aqua;
+    margin-top: 1rem;
+    margin-left: 1rem;
 }
 
+.homepagepic{
+    max-height: 400px;
+    margin-top: -26rem;
+}
+
+
+
+
+/******* Desktop Layout*****/
+@media screen and (min-width: 40rem){
+    .col-span-12 {
+        grid-column: span 12;
+    }
+    .col-span-11 {
+        grid-column: span 11;
+    }
+    .col-span-10{
+        grid-column: span 10;
+    }
+    .col-span-9 {
+        grid-column: span 9;
+    }
+    
+    .col-span-8 {
+        grid-column: span 8;
+    }
+    .col-span-7 {
+        grid-column: span 7;
+    }
+    .col-span-6 {
+        grid-column: span 6;
+    }
+    .col-span-5 {
+        grid-column: span 5;
+    }
+    .col-span-4 {
+        grid-column: span 4;
+    }
+    .col-span-3 {
+        grid-column: span 3;
+    }
+    .col-span-2 {
+        grid-column: span 2;
+    }
+    .col-span-1 {
+        grid-column: span 1;
+    }
+
+    .work-section {
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;    
+    }
+    .card {
+        flex-basis: 27.5%;
+    }
+}
+
+.menu_word{
+    height: fit-content;
+    
+}
+h1 {
+    padding: 3px;
+    margin-left: 10%;
+    margin-top: 10px;
+    font-family: sans-serif;
+    color: #0c7db1;
+    max-height: max-content;
+    
+    
+  }
+  
+  span{
+    color: #ffffff;
+  }

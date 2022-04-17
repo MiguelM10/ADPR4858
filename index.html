@@ -4,32 +4,21 @@
     <meta charset="UTF-8">
     <title>Final Project 2022</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body,header{
+            background-image: url("images/Background_image.png");
+            background-size: fill;
+        }
+    </style>
 </head>
-<style>
-    body,header{
-        background-image: url("images/Background_image.png");
-        background-size: fill;
-    }
-</style>
-<!---------------TOP MENU----------------->
-<header>
-    <h1 class="menu_word">PORTFOLIO<span>SITE</span></h1>
-    <nav>
-        <ul>
-            <li><a class=topmenu href="index.html">Home</a></li>
-            <li><a class=topmenu href="about.html">About</a></li>
-            <li><a class=topmenu href="services.html">Service</a></li>
-            <li><a class=topmenu href="resume.html">Resume</a></li>
-            <li><a class=topmenu href="portfolio.html">Portfolio</a></li>
-            <li><a class=topmenu href="contact.html">Contact</a></li>
-            <li><a class=topmenu href="https://www.linkedin.com/feed/">LinkedIN</a></li>
-        </ul>
-    </nav>
-    
-
-</header>
-<!------------SIDE MENU------------->
 <body>
+
+<div class="container">
+
+
+    <!------------SIDE MENU------------->
+
+
 
     <div class="wrapper">
         <div class="sidebar">
@@ -78,13 +67,25 @@
             </div>
         </div>
     </div>
-
+   
 <!------------MY_NAME_SECTION------------->
-    <div class="nameposition">
+    
+<div class="menu_word col-span-8">
+    <h1 class="menu_word">PORTFOLIO<span>SITE</span></h1>
+</div>
+
+
+    <div class="nameposition col-span-8">
         <h2 class="NameSection">I am Miguel Mendez</h2>
-        <h3 class="Quote">Lorem Ipsum is simply dummy text of the printing and <br> industry. Lorem Ipsum has been the industry's."</h3>
+        <h3 class="Quote">Lorem Ipsum is simply dummy text of the printing and industry. Lorem Ipsum has been the industry's."</h3>
     </div>
-            <div class="homepagepic">
-                <img src="images/IMG_2.png" alt="homepage_portrait">
-            </div>
-    </body>
+
+    <div class="homepagepic col-span-3">
+        <img src="images/IMG_2.png" alt="homepage_portrait">
+    </div>
+
+
+
+</div><!-- closes the container -->
+</body>
+</html>
