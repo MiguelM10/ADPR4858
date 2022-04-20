@@ -10,7 +10,7 @@ img {
 
 body,header{
             background-image: url("images/Background_image.png");
-            background-size: contain; }
+            background-size: fill; }
     
 
 
@@ -113,6 +113,8 @@ li{
 
 /*##############END-OF-SIDE-MENU###############*/
 
+
+
 h1{
     
     margin-top: 10px;
@@ -172,6 +174,9 @@ h3{
         margin-left: .5rem;
         
     }
+
+ 
+
     /******* Desktop Layout*****/
 @media screen and (min-width: 40rem){
     .col-span-12 {
