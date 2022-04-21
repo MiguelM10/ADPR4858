@@ -9,8 +9,8 @@ img {
 }
 
 body,header{
-            background-image: url("images/Background_image.png");
-            background-size: fill; }
+            background-image: url(images/9.jpeg);
+            background-size: cover; }
     
 
 
@@ -24,14 +24,14 @@ body,header{
     }
     
     .div1 { grid-area: 1 / 1 / 6 / 4; 
-        background-color: solid #00457dab;
+        background-color: solid #1f2833;
     align-content: center;
     }
         
 
     .div2 { grid-area: 1 / 4 / 2 / 8;
         font-family: sans-serif;
-        color: #0c7db1;
+        color: #001128;
         margin-left: .6rem;
        
     }
@@ -44,6 +44,7 @@ body,header{
 
       .div3 { grid-area: 2 / 4 / 6 / 9;
         margin-left: .6rem; }
+        
       .div4 { grid-area: 1 / 8 / 2 / 13; }
       .div5 { grid-area: 2 / 9 / 6 / 13; }
 
@@ -93,7 +94,8 @@ li{
         }
     
    ul li:hover{
-       background-color: antiquewhite;
+       background-color: #ff1212;
+
    }
     
     
@@ -113,7 +115,13 @@ li{
 
 /*##############END-OF-SIDE-MENU###############*/
 
+.menu_word{
+    color: #ff1212;
+}
 
+.div3 span{
+    color: #ff1212;
+}
 
 h1{
     
@@ -124,7 +132,7 @@ h2{
     
     margin-top: 15rem;
     font-family: sans-serif;
-    color: rgb(255, 255, 255); 
+    color: white; 
     font-size: 36px;
 }
 h3{
@@ -156,6 +164,7 @@ h3{
         color: red;
         padding: 1rem;
     }
+    
     .fa-facebook{
         color: rgb(0, 123, 255);
         padding: 1rem;
@@ -176,6 +185,7 @@ h3{
         
     }
 
+   
  
 
     /******* Desktop Layout*****/

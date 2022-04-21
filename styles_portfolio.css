@@ -10,7 +10,7 @@ img {
 }
 
 body,header{
-          background-image: url("images/Background_image.png");
+          background-image: url("images/t.png");
           background-size: cover; }
   
 
@@ -44,11 +44,13 @@ body,header{
   padding-top: 2.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
+  color: #ff1212;
 } 
 
 .div2 {
-  background-color: transparent;
+  background-color: #001128;
   overflow: hidden;
+  border-width: 2px;
 }
 
 /* Style the links inside the navigation bar */
@@ -66,8 +68,8 @@ body,header{
 
 /* Change the color of links on hover */
 .div2 a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #ff1212;
+  color: white;
 }
 
 /* Add a color to the active/current link */
@@ -236,7 +238,6 @@ body{
   display: block;
   width: 100%;
   height: 100%;
-  opacity: .21;
   transition: transform 300ms ease;
   transform: scale(.98);
 }
@@ -270,8 +271,7 @@ body{
       background-image: url("images/Fitbit.png")}
 
 .col:nth-of-type(3) .card-container:nth-of-type(2) .card:before{
-      background-image: url('https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/nasasibexobs.jpg?itok=U2LCp14i');
-}
+      background-image: url("")}
 
 .col:nth-of-type(1) .card-container:nth-of-type(3) .card:before{
       background-image: url("")}
